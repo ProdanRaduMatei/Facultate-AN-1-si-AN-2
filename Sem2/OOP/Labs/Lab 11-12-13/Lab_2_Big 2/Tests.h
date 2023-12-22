@@ -1,0 +1,25 @@
+#pragma once
+#include "Song.h"
+#include "SongCollection.h"
+#include <string>
+#include <iostream>
+#include <vector>
+
+int testSong();
+int testGetTitle();
+int testGetArtist();
+int testGetLyrics();
+int testDestructor();
+int testSetTitle();
+int testSetArtist();
+int testSetLyrics();
+int testDisplay();
+int testSongCollection();
+int testAddSong();
+int testPrint();
+int testLoadFromFile();
+int testUniqueArtists();
+int testTop10Artists();
+int testSortSongs();
+int testSearch();
+int testAll();

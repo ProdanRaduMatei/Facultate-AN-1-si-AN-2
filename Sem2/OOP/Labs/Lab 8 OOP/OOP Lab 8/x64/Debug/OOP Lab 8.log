@@ -1,0 +1,7 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (._OOP Lab 8.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+  Song.cpp
+  SongCollection.cpp
+  Test.cpp
+  Generating Code...
+  OOP Lab 8.vcxproj -> W:\Facultate 2022\Sem2\OOP\Lab 8 OOP\OOP Lab 8\x64\Debug\OOP Lab 8.exe

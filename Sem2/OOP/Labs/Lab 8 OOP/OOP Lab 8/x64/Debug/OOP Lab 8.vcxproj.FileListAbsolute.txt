@@ -1,0 +1,4 @@
+\\Mac\Home\Documents\OOP Labs\Lab 8 Xcode\x64\Debug\OOP Lab 8.exe
+C:\Informatica\Lab 8 Xcode\x64\Debug\OOP Lab 8.exe
+E:\Facultate 2022\Sem2\OOP\Lab 8 OOP\OOP Lab 8\x64\Debug\OOP Lab 8.exe
+W:\Facultate 2022\Sem2\OOP\Lab 8 OOP\OOP Lab 8\x64\Debug\OOP Lab 8.exe

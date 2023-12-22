@@ -1,0 +1,9 @@
+# ninja log v5
+62	846	1683752001530000000	Lab_9_Bun_autogen/timestamp	625d080918ec292f
+62	846	1683752001530000000	Lab_9_Bun_autogen/mocs_compilation.cpp	625d080918ec292f
+62	846	1683752001530000000	/Volumes/Usual_Stuff/Facultate 2022/Sem2/OOP/Lab 9 OOP/build-Lab_9_Bun-Qt_6_2_4_for_macOS-Debug/Lab_9_Bun_autogen/timestamp	625d080918ec292f
+62	846	1683752001530000000	/Volumes/Usual_Stuff/Facultate 2022/Sem2/OOP/Lab 9 OOP/build-Lab_9_Bun-Qt_6_2_4_for_macOS-Debug/Lab_9_Bun_autogen/mocs_compilation.cpp	625d080918ec292f
+848	1595	1683752002300000000	CMakeFiles/Lab_9_Bun.dir/mainwindow.cpp.o	cc5f708270b726ff
+847	1601	1683752002300000000	CMakeFiles/Lab_9_Bun.dir/Lab_9_Bun_autogen/mocs_compilation.cpp.o	289e20c8f0babdb4
+848	1602	1683752002290000000	CMakeFiles/Lab_9_Bun.dir/main.cpp.o	352f8b7d2ff9b47b
+1602	1762	1683752002490000000	Lab_9_Bun.app/Contents/MacOS/Lab_9_Bun	43fb5378ea65ed1f

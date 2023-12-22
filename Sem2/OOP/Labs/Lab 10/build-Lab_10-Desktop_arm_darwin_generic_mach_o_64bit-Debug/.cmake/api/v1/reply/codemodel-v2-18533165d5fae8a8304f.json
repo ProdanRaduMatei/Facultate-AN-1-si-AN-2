@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-c1d4fb241b766f50eac0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Lab_10",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab_10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab_10-Debug-5f04c45446ddef32a9b4.json",
+					"name" : "Lab_10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab_10_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab_10_autogen-Debug-c37010814e6884867c81.json",
+					"name" : "Lab_10_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab_10_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab_10_autogen_timestamp_deps-Debug-f9f2e77df07e4aac48be.json",
+					"name" : "Lab_10_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Volumes/Usual_Stuff/Facultate 2022/Sem2/OOP/Lab 10/build-Lab_10-Desktop_arm_darwin_generic_mach_o_64bit-Debug",
+		"source" : "/Volumes/Usual_Stuff/Facultate 2022/Sem2/OOP/Lab 10/Lab_10"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

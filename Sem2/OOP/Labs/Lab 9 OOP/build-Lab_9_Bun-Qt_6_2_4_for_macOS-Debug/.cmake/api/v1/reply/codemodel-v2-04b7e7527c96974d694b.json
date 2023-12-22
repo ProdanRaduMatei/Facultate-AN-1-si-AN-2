@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-9fe9ae22a2ffb5cad0fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Lab_9_Bun",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab_9_Bun::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab_9_Bun-Debug-80c8bd2567195ce18a4a.json",
+					"name" : "Lab_9_Bun",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab_9_Bun_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab_9_Bun_autogen-Debug-bd3b9cbdabf4958a3c81.json",
+					"name" : "Lab_9_Bun_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab_9_Bun_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab_9_Bun_autogen_timestamp_deps-Debug-ca52433238a9fc760090.json",
+					"name" : "Lab_9_Bun_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Volumes/Usual_Stuff/Facultate 2022/Sem2/OOP/Lab 9 OOP/build-Lab_9_Bun-Qt_6_2_4_for_macOS-Debug",
+		"source" : "/Volumes/Usual_Stuff/Facultate 2022/Sem2/OOP/Lab 9 OOP/Lab_9_Bun"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

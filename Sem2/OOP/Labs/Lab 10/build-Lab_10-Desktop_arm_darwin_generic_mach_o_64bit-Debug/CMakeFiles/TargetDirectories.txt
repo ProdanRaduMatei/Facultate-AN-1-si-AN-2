@@ -1,0 +1,9 @@
+/Volumes/Usual_Stuff/Facultate 2022/Sem2/OOP/Lab 10/build-Lab_10-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Lab_10.dir
+/Volumes/Usual_Stuff/Facultate 2022/Sem2/OOP/Lab 10/build-Lab_10-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/edit_cache.dir
+/Volumes/Usual_Stuff/Facultate 2022/Sem2/OOP/Lab 10/build-Lab_10-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/Volumes/Usual_Stuff/Facultate 2022/Sem2/OOP/Lab 10/build-Lab_10-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/list_install_components.dir
+/Volumes/Usual_Stuff/Facultate 2022/Sem2/OOP/Lab 10/build-Lab_10-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/install.dir
+/Volumes/Usual_Stuff/Facultate 2022/Sem2/OOP/Lab 10/build-Lab_10-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/install/local.dir
+/Volumes/Usual_Stuff/Facultate 2022/Sem2/OOP/Lab 10/build-Lab_10-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/install/strip.dir
+/Volumes/Usual_Stuff/Facultate 2022/Sem2/OOP/Lab 10/build-Lab_10-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Lab_10_autogen_timestamp_deps.dir
+/Volumes/Usual_Stuff/Facultate 2022/Sem2/OOP/Lab 10/build-Lab_10-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Lab_10_autogen.dir

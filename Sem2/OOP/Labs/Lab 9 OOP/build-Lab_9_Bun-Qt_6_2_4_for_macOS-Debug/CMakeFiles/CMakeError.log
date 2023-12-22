@@ -1,0 +1,17 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ 
+Build flags: -DQT_QML_DEBUG
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+The CXX compiler identification could not be found in "/Volumes/Usual_Stuff/Facultate 2022/Sem2/OOP/Lab 9 OOP/build-Lab_9_Bun-Qt_6_2_4_for_macOS-Debug/CMakeFiles/3.24.2/CompilerIdCXX/._CMakeCXXCompilerId.cpp"
+
+The CXX compiler identification could not be found in "/Volumes/Usual_Stuff/Facultate 2022/Sem2/OOP/Lab 9 OOP/build-Lab_9_Bun-Qt_6_2_4_for_macOS-Debug/CMakeFiles/3.24.2/CompilerIdCXX/._CMakeCXXCompilerId.o"
+
+The CXX compiler identification could not be found in "/Volumes/Usual_Stuff/Facultate 2022/Sem2/OOP/Lab 9 OOP/build-Lab_9_Bun-Qt_6_2_4_for_macOS-Debug/CMakeFiles/3.24.2/CompilerIdCXX/._tmp"
+

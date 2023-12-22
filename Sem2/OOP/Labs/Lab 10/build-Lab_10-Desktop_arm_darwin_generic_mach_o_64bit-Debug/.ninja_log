@@ -1,0 +1,9 @@
+# ninja log v5
+1	619	1684989152560000000	Lab_10_autogen/timestamp	99195c6f7ec33e73
+1	619	1684989152560000000	Lab_10_autogen/mocs_compilation.cpp	99195c6f7ec33e73
+1	619	1684989152560000000	/Volumes/Usual_Stuff/Facultate 2022/Sem2/OOP/Lab 10/build-Lab_10-Desktop_arm_darwin_generic_mach_o_64bit-Debug/Lab_10_autogen/timestamp	99195c6f7ec33e73
+1	619	1684989152560000000	/Volumes/Usual_Stuff/Facultate 2022/Sem2/OOP/Lab 10/build-Lab_10-Desktop_arm_darwin_generic_mach_o_64bit-Debug/Lab_10_autogen/mocs_compilation.cpp	99195c6f7ec33e73
+625	1242	1684989153260000000	CMakeFiles/Lab_10.dir/main.cpp.o	523b3d1eecd65554
+624	1245	1684989153260000000	CMakeFiles/Lab_10.dir/Lab_10_autogen/mocs_compilation.cpp.o	c08864ff1b0ac677
+625	1277	1684989153290000000	CMakeFiles/Lab_10.dir/mainwindow.cpp.o	7b70f996b9fd83f0
+1277	1423	1684989153460000000	Lab_10.app/Contents/MacOS/Lab_10	388a489e056cd6ed
