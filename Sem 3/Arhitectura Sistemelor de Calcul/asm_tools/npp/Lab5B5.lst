@@ -1,0 +1,44 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  
+    11                                  ; our data is declared here (the variables needed by our program)
+    12                                  segment data use32 class=data
+    13                                      ; ...
+    14                                      ; A string of words S is given. Compute string D constaining only low bytes of multiple of 9 from string S.
+    15                                      ; If S = 3812h, 5678h, 1a09h => D = 12h, 09h
+    16                                  
+    17 00000000 12387856091A                S dw 3812h, 5678h, 1a09h
+    18                                      ls equ ($-S) / 2 ; ls = length of S (in words)
+    19 00000006 <res 00000003>              D resb ls
+    20                                  
+    21                                  ; our code starts here
+    22                                  segment code use32 class=code
+    23                                      start:
+    24                                          ; ...
+    25 00000000 BE00000000                      mov esi, 0
+    26 00000005 BF00000000                      mov edi, 0
+    27 0000000A B903000000                      mov ecx, ls
+    28 0000000F B309                            mov bl, 9
+    29                                          repeta: ; compute string D constaining only low bytes of multiple of 9 from string S
+    30 00000011 668B86[00000000]                    mov ax, [S + esi] ; ax = S[esi]
+    31 00000018 F6F3                                div bl ; ax = ax / bl (ax = quotient, ah = remainder)
+    32 0000001A 80FC00                              cmp ah, 0 ; if remainder = 0
+    33 0000001D 7507                                jne next ; jump to next
+    34 0000001F 8887[06000000]                      mov [D + edi], al ; D[edi] = al
+    35 00000025 47                                  inc edi ; edi++
+    36                                              next:
+    37 00000026 46                                  inc esi ; esi++
+    38 00000027 E2E8                                loop repeta ; repeat
+    39                                  
+    40                                          ; ...        
+    41                                      
+    42                                          ; exit(0)
+    43 00000029 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    44 0000002B FF15[00000000]                  call    [exit]       ; call exit to terminate the program

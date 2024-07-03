@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            prefHeight="400.0" prefWidth="600.0">
+    <VBox>
+        <VBox>
+            <ListView fx:id="recipeListView" layoutX="13.0" layoutY="10.0" prefHeight="222.0" prefWidth="692.0" />
+        </VBox>
+        <VBox>
+            <HBox>
+                <TextField fx:id="selectedTime" promptText="Time" alignment="TOP_CENTER" maxWidth="100"/>
+                <TextField fx:id="selectedIngredient" promptText="Ingredient" alignment="TOP_CENTER" maxWidth="100"/>
+                <Button fx:id="searchButton" text="Search" alignment="TOP_CENTER"/>
+            </HBox>
+            <HBox>
+                <ListView fx:id="recipeListView2" maxHeight="100.0" maxWidth="1500.0"/>
+            </HBox>
+        </VBox>
+        <VBox>
+            <HBox>
+                <TextField fx:id="recipeName" promptText="Recipe Name" alignment="TOP_CENTER" maxWidth="100"/>
+                <TextField fx:id="cookingTime" promptText="Time" alignment="TOP_CENTER" maxWidth="100"/>
+                <TextField fx:id="ingredients" promptText="Ingredients" alignment="TOP_CENTER" maxWidth="100"/>
+                <Button fx:id="addButton" text="Add" alignment="TOP_CENTER"/>
+            </HBox>
+            <HBox>
+                <ListView fx:id="recipeListView3" maxHeight="100.0" maxWidth="1500.0"/>
+            </HBox>
+        </VBox>
+    </VBox>
+
+</AnchorPane>

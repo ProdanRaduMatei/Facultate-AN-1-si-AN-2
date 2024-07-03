@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="09979f45-741f-4688-9140-5f36f9107e13" name="Changes" comment="22.11.2023">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P2/src/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/P2/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/P2/src/domain/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/P2/src/domain/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P2/src/domain/DoctorAppointments.java" beforeDir="false" afterPath="$PROJECT_DIR$/P2/src/domain/DoctorAppointments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P2/src/repository/DoctorAppointmentsRepositoryBinaryFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/P2/src/repository/DoctorAppointmentsRepositoryBinaryFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P2/src/repository/DoctorAppointmentsRepositoryTextFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/P2/src/repository/DoctorAppointmentsRepositoryTextFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P2/src/repository/FileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/P2/src/repository/FileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P2/src/repository/IRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/P2/src/repository/IRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P2/src/repository/MemoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/P2/src/repository/MemoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P2/src/services/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/P2/src/services/Services.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P2/src/ui/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/P2/src/ui/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P2/domain/Doctor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P2/domain/DoctorAppointments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P2/domain/Identifiable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P2/domain/Patient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P2/repository/AppointmentsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P2/repository/AppointmentsRepositoryBinaryFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P2/repository/AppointmentsRepositoryTextFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P2/repository/DoctorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P2/repository/DoctorRepositoryBinaryFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P2/repository/DoctorRepositoryTextFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P2/repository/FileRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P2/repository/IRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P2/repository/MemoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P2/repository/PatientRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P2/repository/PatientRepositoryBinaryFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P2/repository/PatientRepositoryTextFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P2/services/Services.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P2/settings.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P2/ui/UI$PrimitiveAppointment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P2/ui/UI$PrimitiveDoctor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P2/ui/UI.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2YUEZVJMS0MOHwI0XtGKlhS6EYK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/matei/Desktop/AN2/Sem 3/Metode Avansate de Programare/Labs/a3-ProdanRaduMatei&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/P2 redone/src/domain" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09979f45-741f-4688-9140-5f36f9107e13" name="Changes" comment="" />
+      <created>1700571813807</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700571813807</updated>
+      <workItem from="1700571815350" duration="129000" />
+      <workItem from="1700674652192" duration="254000" />
+      <workItem from="1702456250653" duration="382000" />
+      <workItem from="1702456673387" duration="1021000" />
+      <workItem from="1702457730851" duration="127000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="22.11.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="22.11.2023" />
+  </component>
+</project>

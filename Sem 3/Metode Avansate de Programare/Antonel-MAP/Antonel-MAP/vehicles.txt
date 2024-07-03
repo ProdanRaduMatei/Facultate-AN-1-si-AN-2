@@ -1,0 +1,4 @@
+1;Audi A4;Wagon;black;2010;10000;100000
+2;Audi A4;Sedan;black;2018;10000;40000
+3;BMW 5 Series;Sedan;black;2018;7000;31500
+4;Audi;A4;black;2010;10000;100000

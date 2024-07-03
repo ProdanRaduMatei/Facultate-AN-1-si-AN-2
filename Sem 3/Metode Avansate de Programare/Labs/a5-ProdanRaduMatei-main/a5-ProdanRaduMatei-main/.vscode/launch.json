@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "env": {"PATH_TO_FX": "/Users/matei/Desktop/AN2/Sem 3/Metode Avansate de Programare/Labs/a5-ProdanRaduMatei/javafx-sdk-21.0.1/lib"},
+            "vmArgs": "--module-path ${env:PATH_TO_FX} --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}

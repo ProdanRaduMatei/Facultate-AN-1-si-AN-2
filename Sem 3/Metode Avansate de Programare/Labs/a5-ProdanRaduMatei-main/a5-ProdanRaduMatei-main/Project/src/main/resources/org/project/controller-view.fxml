@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml" fx:controller="org.project.Controller">
+    <HBox>
+        <TextField fx:id="appointmentIdField" promptText="Appointment ID"/>
+        <TextField fx:id="appointmentDoctorIdField" promptText="Doctor ID"/>
+        <TextField fx:id="appointmentPatientIdField" promptText="Patient ID"/>
+        <TextField fx:id="appointmentSpecializationField" promptText="Specialization"/>
+        <TextField fx:id="appointmentDateField" promptText="Date"/>
+    </HBox>
+    <HBox>
+        <Button fx:id="addAppointmentButton" text="Add appointment"/>
+        <Button fx:id="updateAppointmentButton" text="Update appointment"/>
+        <Button fx:id="deleteAppointmentButton" text="Delete appointment"/>
+        <Button fx:id="getAllAppointmentsButton" text="Get all appointments"/>
+    </HBox>
+    <HBox>
+        <TextField fx:id="doctorIdField" promptText="Doctor ID"/>
+        <TextField fx:id="doctorNameField" promptText="Name"/>
+        <TextField fx:id="doctorPhoneField" promptText="Phone"/>
+        <TextField fx:id="doctorAddressField" promptText="Address"/>
+        <TextField fx:id="doctorSpecialtyField" promptText="Specialization"/>
+    </HBox>
+    <HBox>
+        <Button fx:id="addDoctorButton" text="Add doctor"/>
+        <Button fx:id="updateDoctorButton" text="Update doctor"/>
+        <Button fx:id="deleteDoctorButton" text="Delete doctor"/>
+        <Button fx:id="getAllDoctorsButton" text="Get all doctors"/>
+    </HBox>
+    <HBox>
+        <TextField fx:id="patientIdField" promptText="Patient ID"/>
+        <TextField fx:id="patientNameField" promptText="Name"/>
+        <TextField fx:id="patientPhoneField" promptText="Phone"/>
+        <TextField fx:id="patientAddressField" promptText="Address"/>
+        <TextField fx:id="patientIllnessField" promptText="Illness"/>
+        <TextField fx:id="patientTreatmentField" promptText="Treatment"/>
+    </HBox>
+    <HBox>
+        <Button fx:id="addPatientButton" text="Add patient"/>
+        <Button fx:id="updatePatientButton" text="Update patient"/>
+        <Button fx:id="deletePatientButton" text="Delete patient"/>
+        <Button fx:id="getAllPatientsButton" text="Get all patients"/>
+    </HBox>
+</VBox>

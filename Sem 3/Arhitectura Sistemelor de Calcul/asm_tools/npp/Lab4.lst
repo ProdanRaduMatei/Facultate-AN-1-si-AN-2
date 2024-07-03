@@ -1,0 +1,64 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  
+    11                                  ; our data is declared here (the variables needed by our program)
+    12                                  segment data use32 class=data
+    13                                      ; ...
+    14                                      ; if (d + a) % 7 = 0 then e = 12 * b else e = c / 11
+    15 00000000 03                          a db 3
+    16 00000001 0100                        b dw 1
+    17 00000003 1600                        c dw 22
+    18 00000005 04                          d db 4
+    19 00000006 00000000                    e dd 0
+    20                                  
+    21                                  ; our code starts here
+    22                                  segment code use32 class=code
+    23                                      start:
+    24                                          ; ...
+    25                                          
+    26                                          ; d + a
+    27 00000000 A0[00000000]                    mov al, [a]
+    28 00000005 668B1D[05000000]                mov bx, [d]
+    29 0000000C 6698                            cbw ; convert al (byte) to ax (word)
+    30 0000000E 6601D8                          add ax, bx ; ax = ax + bx = d + a
+    31                                          
+    32                                          ; (d + a) % 7
+    33 00000011 66B90700                        mov cx, 7
+    34 00000015 6699                            cwd ; convert ax (word) to dx:ax (double word)
+    35 00000017 66F7F1                          div cx     ; dx:ax / cx = ax remainder dx
+    36 0000001A 6689D0                          mov ax, dx ; ax = dx = (d + a) % 7
+    37                                  
+    38                                          ; if (d + a) % 7 = 0 then e = 12 * b else e = c / 11
+    39 0000001D 66BB0000                        mov bx, 0
+    40 00000021 6639D8                          cmp ax, bx ; compare ax with bx
+    41 00000024 7402                            je if_true ; if ax == bx then jump to if_true
+    42 00000026 7515                            jne if_false ; if ax != bx then jump to if_false
+    43                                  
+    44                                          if_true:
+    45                                              ; e = 12 * b
+    46 00000028 66A1[01000000]                      mov ax, [b]
+    47 0000002E 66BB0C00                            mov bx, 12
+    48 00000032 66F7E3                              mul bx     ; ax * bx = ax * 12
+    49 00000035 66A3[06000000]                      mov [e], ax ; e = ax
+    50 0000003B EB15                                jmp end_if ; jump to end_if
+    51                                  
+    52                                          if_false:
+    53                                              ; e = c / 11
+    54 0000003D 66A1[03000000]                      mov ax, [c]
+    55 00000043 66BB0B00                            mov bx, 11
+    56 00000047 6699                                cwd ; convert ax (word) to dx:ax (double word)
+    57 00000049 66F7F3                              div bx     ; dx:ax / bx = ax remainder dx
+    58 0000004C 66A3[06000000]                      mov [e], ax ; e = ax
+    59                                  
+    60                                          end_if:
+    61                                      
+    62                                          ; exit(0)
+    63 00000052 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    64 00000054 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

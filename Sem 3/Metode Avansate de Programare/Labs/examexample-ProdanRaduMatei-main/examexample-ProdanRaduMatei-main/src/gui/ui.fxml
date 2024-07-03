@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="gui.Controller" prefHeight="400.0" prefWidth="600.0">
+    <VBox>
+        <children>
+            <TextField fx:id="departureCityTextField" promptText="Departure City"/>
+            <TextField fx:id="departureTimeTextField" promptText="Departure Time"/>
+            <Button fx:id="searchButton" text="Search"/>
+            <ListView fx:id="busesListView" prefHeight="200.0" prefWidth="200.0"/>
+        </children>
+    </VBox>
+</AnchorPane>
